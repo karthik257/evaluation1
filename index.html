@@ -6,51 +6,200 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Order food online from India's best</title>
     <style>
-      .container {
-        width: 100%;
+      .offer-container {
         display: flex;
+        height: 30vh;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
       }
-      .div1 {
-        background-color: darkgray;
-        height: 50vh;
-        width: 50%;
+      .offer > img {
+        height: 200px;
+        /* width: 200px; */
       }
-      .div2 {
-        background-color: blue;
-        height: 50vh;
-        width: 50%;
+      .grid-container {
+        margin: 30px;
+        display: grid;
+        grid-template-columns: 250px 250px 250px 250px;
+        justify-items: center;
+        grid-gap: 30px;
+        grid-template-rows: auto auto;
+        grid-template-columns: auto auto auto;
+        justify-content: space-evenly;
       }
-      img{
-          height: 50vh;
-          width: 100%;
+      .grid-item > img {
+        height: 200px;
+        width: 200px;
+      }
+
+      .nav {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        justify-content: space-evenly;
+        margin: 20px;
+        position: sticky;
+        top: 0px;
+        background-color: white;
+      }
+      .item1 > img {
+        height: 50px;
+        width: 50px;
       }
     </style>
   </head>
   <body>
-    <div class="container">
-      <div class="div1">
-          <div>
-              <h2>SWIGGY</h2>
-
-          </div>
-          <div>
-              <P>Order food from favourite restaurants near you.</P>
-          </div>
-          <div>
-              <input type="text" name="" id="" placeholder="Enter your delivery location">
-              <button type="submit">FIND FOOD</button>
-          </div>
-          <div>
-              <h3>POPULAR CITIES IN INDIA</h3>
-              <p>Ahmedabad Bangalore Chennai Delhi Gurgaon Hyderabad Kolkata Mumbai Pune & more.</p>
-          </div>
+    <div class="nav">
+      <div class="item item1">
+        <img
+          src="https://cdn.worldvectorlogo.com/logos/swiggy-1.svg"
+          alt="image"
+        />
       </div>
-      <div class="div2">
+      <div class="item item2">
+        <p>
+          <strong><u>Other:</u></strong> 19th Main Road, HAL 2nd
+        </p>
+      </div>
+      <div class="item item3"><p>Search</p></div>
+      <div class="item item4"><p>Offers</p></div>
+      <div class="item item5"><p>Help</p></div>
+      <div class="item item6"><p>Sign In</p></div>
+      <div class="item item7"><p>Cart</p></div>
+    </div>
+
+    <div class="offer-container">
+      <div class="offer">
         <img
           src="https://github.com/riteshf/files/blob/main/offer1.jpeg?raw=true"
-          alt="image2"
+          alt=""
         />
+      </div>
+      <div class="offer">
+        <img
+          src="https://github.com/riteshf/files/blob/main/offer2.jpeg?raw=true"
+          alt=""
+        />
+      </div>
+      <div class="offer">
+        <img
+          src="https://github.com/riteshf/files/blob/main/offer3.jpeg?raw=true"
+          alt=""
+        />
+      </div>
+      <div class="offer">
+        <img
+          src="https://github.com/riteshf/files/blob/main/offer4.jpeg?raw=true "
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div class="grid-container">
+      <div class="grid-item">
+        <img
+          src="https://github.com/riteshf/files/blob/main/restaurant1.jpeg?raw=true"
+          alt=""
+        />
+        <h3>Punjabi Tandoor</h3>
+        <p>Biriyani, Thalis</p>
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://github.com/riteshf/files/blob/main/restaurant2.jpeg?raw=true
+"
+          alt=""
+        />
+        <h3>Meghana Foods</h3>
+        <p>Chinese, Sea Food</p>
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://github.com/riteshf/files/blob/main/restaurant3.jpeg?raw=true"
+          alt=""
+        />
+        <h3>Leon Grill</h3>
+        <p>Arabian, North Indian</p>
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://github.com/riteshf/files/blob/main/restaurant4.jpeg?raw=true"
+          alt=""
+        />
+        <h3>Zaitoon</h3>
+        <p>Arabian, Biriyanim Juices</p>
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://github.com/riteshf/files/blob/main/restaurant5.jpeg?raw=true"
+          alt=""
+        />
+        <h3>Udupi Park</h3>
+        <p>South Indian, North Indian</p>
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://github.com/riteshf/files/blob/main/restaurant6.jpeg?raw=true"
+          alt=""
+        />
+        <h3>Punjab Rasoi</h3>
+        <p>North Indian</p>
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://github.com/riteshf/files/blob/main/restaurant7.jpeg?raw=true"
+          alt=""
+        />
+        <h3>Hotel Empire</h3>
+        <p>Chinese, Biriyani</p>
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://github.com/riteshf/files/blob/main/restaurant8.jpeg?raw=true"
+          alt=""
+        />
+        <h3>The Bowl Company</h3>
+        <p>Continental, Desserts</p>
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://github.com/riteshf/files/blob/main/restaurant9.jpeg?raw=true"
+          alt=""
+        />
+        <h3>Pizza Hut</h3>
+        <p>Fast Food, Pizzas</p>
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://github.com/riteshf/files/blob/main/restaurant10.jpeg?raw=true"
+          alt=""
+        />
+        <h3>Homely Food</h3>
+        <p>Healthy, Home Made</p>
       </div>
     </div>
   </body>
 </html>
+
+<!-- Navbar should be sticky at top, even when page is scrolled.
+It should have 4 offers cards, directly use images.
+Flex should be used for offer cards.
+It should have atleast 10 restaurants.
+Grid should be used to show restaurants and spacing between.
+CSS classes should be re-used for duplicate sections. -->
+
+<!-- offer1 https://github.com/riteshf/files/blob/main/offer1.jpeg?raw=true
+offer 2 https://github.com/riteshf/files/blob/main/offer2.jpeg?raw=true
+offer 3 https://github.com/riteshf/files/blob/main/offer3.jpeg?raw=true
+offer 4 https://github.com/riteshf/files/blob/main/offer4.jpeg?raw=true -->
+
+<!-- https://github.com/riteshf/files/blob/main/restaurant1.jpeg?raw=true
+
+
+
+
+
+
+
+ -->
